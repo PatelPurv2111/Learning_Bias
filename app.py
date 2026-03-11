@@ -26,7 +26,7 @@ interface = gr.Interface(
     fn=chat,
     inputs=gr.Textbox(label="Ask about latest news"),
     outputs=gr.Textbox(label="Analysis"),
-    title="AI NEWS ANALYSIS Project"
+    title="AI NEWS ANALYSIS"
 )
 
 interface.launch()
